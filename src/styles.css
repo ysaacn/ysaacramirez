@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+main.container {
+  padding-top: 70px; /* Ajusta este valor según la altura de tu header */
+}
+
+app-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+app-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+
+/*
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; 
+  }
+*/
+
