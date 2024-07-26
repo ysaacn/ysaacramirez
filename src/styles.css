@@ -15,7 +15,28 @@ app-header {
   width: 100%;
   top: 0;
   z-index: 1000;
+  background: #f8f9fa; /* Asegura que el header tenga un fondo para no ser transparente */
 }
+
+app-carousel {
+  margin-top: 70px; /* Ajusta este valor según la altura de tu header */
+}
+
+/* Ajuste de las imágenes del carrusel */
+
+/* Ajusta el tamaño del carrusel */
+.carousel {
+  max-width: 100%; /* Ajusta este valor según tus necesidades */
+  margin: auto; /* Centra el carrusel en la página */
+}
+
+/* Asegura que todas las imágenes tengan la misma altura */
+.carousel-inner img {
+  height: 400px; /* Ajusta este valor según tus necesidades */
+  object-fit: cover; /* Asegura que las imágenes se ajusten al contenedor */
+  width: 100%; /* Asegura que las imágenes ocupen todo el ancho del contenedor */
+}
+
 
 app-footer {
   position: relative;
@@ -25,14 +46,3 @@ app-footer {
   background: #f8f9fa;
   text-align: center;
 }
-
-
-/*
-  .content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh; 
-  }
-*/
-
